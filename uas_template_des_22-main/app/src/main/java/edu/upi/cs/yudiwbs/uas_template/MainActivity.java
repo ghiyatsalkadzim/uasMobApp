@@ -36,15 +36,6 @@ public class MainActivity extends AppCompatActivity {
                                             .commit();
                                 }
                                 break;
-                            case R.id.itmDua:
-                                Toast.makeText(getApplicationContext(), "Dua", Toast.LENGTH_SHORT).show();
-                                if (savedInstanceState == null) {
-                                    getSupportFragmentManager().beginTransaction()
-                                            .setReorderingAllowed(true)
-                                            .replace(R.id.fragmentContainerView, FragmentDua.class, null)
-                                            .commit();
-                                }
-                                break;
 
                         }
 
